@@ -146,7 +146,7 @@ export default function Home() {
                         <div className='text-5xl font-bold py-6 mt-auto'>
                             {equation.left} + {equation.right}
                         </div>
-                        <div className='flex space-x-3 mt-auto'>
+                        <div className='flex space-x-3 mt-auto mb-10'>
                             {randomAnswerPosition.map((randomAnswer) => (
                                 <button
                                     key={randomAnswer}
